@@ -7,11 +7,11 @@
     margin: 0 ;
     padding: 0;
 }
-
-/* PodCast Section Start */
-.podcast-container{
+body{
     background-color: #1A0B2E;
 }
+
+/* PodCast Section Start */
 
 .podcast-content{
     justify-content: center;
@@ -55,3 +55,80 @@
 }
 
 /* PodCast section end */
+
+/* TechWave start */
+.TechWave{
+    justify-content: center;
+    text-align: center;
+    background-color: #230E3D;
+    padding: 120px 200px ;
+}
+.TechWave h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.TechWave .card-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    max-width: 1200px;
+    max-height: 783px;
+}
+.card-container .images{
+    padding-top: 40px;
+}
+.card{
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: none;
+    background-color: #351165;
+    padding: 0 40px;
+    justify-content: center;
+    text-align: left;
+}
+.card h3{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 16px;
+}
+.card p{
+    line-height: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 16px;
+    color: #FFFFFF;
+}
+
+.card-1{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.card-1 img{
+    padding-top: 107.5px;
+
+}
+.card-2,.card-3{
+    grid-column: span 2;
+    grid-row: span 1;
+
+}
+.card-4{
+    grid-row: span 1;
+    grid-column: span 2;
+    padding-bottom: 40px;
+}
+.card-4 .image{
+    width: 60px;
+    height: 60px;
+}
+.card-5{
+    grid-row: span 1 ;
+    grid-column: span 1;
+    padding-bottom: 40px;
+}
+/* TechWave end */
