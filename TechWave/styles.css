@@ -194,6 +194,7 @@ body{
 .host-title{
     display: flex;
     background-color: #351165;
+    border-radius: 20px;
 }
 .host-img{
     padding: 40px 24px 40px 40px;
@@ -232,3 +233,53 @@ body{
 .social-link li{
     list-style: none;
 }
+
+/* footer */
+footer{
+    background-image: url("./assets/footer-bg.png");
+    justify-content: center;
+    text-align: center;
+}
+.footer-content{
+    padding: 120px 120px 64px 120px;
+}
+.footer-content h1{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.footer-content h1 span{
+    color:
+rgba(251, 9, 180, 1);
+}
+.footer-content ul{
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+}
+.footer-content li{
+    list-style: none;
+
+}
+.footer-content a{
+    text-decoration: none;
+}
+.footer-content ul #text{
+    padding-right: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.footer-content p{
+    padding-top: 34px;
+    line-height: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.social-link ul img:hover,.footer-content ul img:hover {
+        background-color: rgba(5, 191, 107, 0.861); 
+        transform: scale(2); 
+    }
