@@ -63,7 +63,7 @@ body{
     background-color: #230E3D;
     padding: 120px 200px ;
 }
-.TechWave h2{
+.TechWave h2 ,.video-content h3,.meet-host h2{
     font-size: 3rem;
     font-weight: bold;
     color: #FFFFFF;
@@ -132,3 +132,103 @@ body{
     padding-bottom: 40px;
 }
 /* TechWave end */
+
+/* Features feature start */
+.Features{
+    justify-content: center;
+    text-align: center;
+    background-color: #1A0B2E;
+    padding: 120px 200px ;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.video-card{
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: #351165;
+    text-align: left;
+}
+.video-card iframe{
+    width: 100%;
+    padding-bottom: 24px;
+    border-radius: 10px;
+}
+.video-card h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+    padding-left: 24px;
+}
+.video-card p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+}
+.video-card .duration{
+    display: flex;
+    padding-left: 24px;
+}
+.video-card .duration img{
+    width: 20px;
+    height: 20px;
+}
+.video-card .duration p{
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* Host */
+.meet-host h2{
+    padding-top: 120px;
+}
+.host-title{
+    display: flex;
+    background-color: #351165;
+}
+.host-img{
+    padding: 40px 24px 40px 40px;
+}
+.host-details{
+    text-align: left;
+}
+.host-details h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 48.5px;
+}
+.host-details p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24px;
+    padding-top: 16px;
+    padding-right: 40px;
+}
+.social-link{
+    padding-top: 16px;
+}
+.social-link img{
+    border-radius: 50%;
+
+}
+.social-link ul{
+    display: flex;
+    gap: 12px;
+}
+.social-link a{
+    text-decoration: none;
+}
+.social-link li{
+    list-style: none;
+}
