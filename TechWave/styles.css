@@ -10,7 +10,106 @@
 body{
     background-color: #1A0B2E;
 }
+/* header part */
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    background-color: #1A0B2E;
+}
+.navbar h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+.navbar h3 span{
+    background: linear-gradient(to right, #f7e83f8e, #f402ac, #9100F8);
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    padding-top: 36.5px;
+}
+.navbar li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 120%;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.btn{
+    color: #FFFFFF;
+    height: 44px;
+    width: 135px;
+    background:linear-gradient(#F7E93F,#FB09B4 , #9100F8);
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-2:hover,.btn:hover{
+    cursor: pointer;
+}
+.banner{
+    justify-content: center;
+    text-align: center;
+    background-image: url("./assets/hero-bg.png");
+    padding: 101px 525px 101px 525px;
+}
+
+.banner-logo .imgages{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+} 
+
+#micro {
+    margin-left: -233px;
+}
+.banner-content h2{
+    padding-top: 40px;
+    font-size: 3.75rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.banner-content p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+.btny{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+.btny .btn{
+    width: 201px;
+    height: 44px;
+    padding-bottom: 35px;
+}
+.btny .btn-2{
+    width: 147px;
+    height: 44px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00FF88;
+    background:none;
+    border: 1px solid #00FF88;
+}
 /* PodCast Section Start */
 
 .podcast-content{
@@ -249,8 +348,10 @@ footer{
     font-weight: bold;
 }
 .footer-content h1 span{
-    color:
-rgba(251, 9, 180, 1);
+    background: linear-gradient(to right, #f7e83f5d, #fc04b1, #9100F8);
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 .footer-content ul{
     padding-top: 34px;
